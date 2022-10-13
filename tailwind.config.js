@@ -24,7 +24,7 @@ module.exports = {
           DEFAULT: '#919297',
           1: '#D9D9D9',
           2: '#E7E9EB',
-          3: '#1f2937',
+          3: '#4a4e4d',
         },
         white: '#fff',
         pink: 'pink',

@@ -36,7 +36,7 @@ import Avatar4Img from './assets/img/avatar-4.png';
 export const navigation = [
   {
     name: 'home',
-    href: 'home',
+    href: '#home',
   },
   {
     name: 'about',

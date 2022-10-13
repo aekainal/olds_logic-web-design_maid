@@ -14,17 +14,22 @@ import Contact from './components/Contact'
 
 const App = () => {
   return (
-    <div className='w-full max-w-[1440px] mx-auto bg-white'>
-      <Header />
-      <Hero />
-      <Features />
-      <NewItems />
-      <FeaturesSecond />
-      <Contact />
-      <Testimonial />
-      <Newsletter />
-      <Footer />     
+    <div>
+      <div className='w-full max-w-[1440px] mx-auto bg-white'>
+        <Header />
+        <Hero />
+        <Features />
+        <NewItems />
+        <FeaturesSecond />
+        <Contact />
+        <Testimonial />
+        <Newsletter />                  
+      </div>
+      <div className='w-[100vw] bg-primary left-0'>
+        <Footer />
+      </div> 
     </div>
+    
   );
 };
 
