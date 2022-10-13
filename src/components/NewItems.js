@@ -18,7 +18,7 @@ const NewItems = () => {
               {title}
             </h2>
             <p className='max-w-[245px] lg:mb-12'>{subtitle}</p>
-            <div className='hidden lg:flex items-center'>
+            {/*<div className='hidden lg:flex items-center'>
               <a
                 className='hover:border-b border-primary lg:items-center font-medium transition-all'
                 href='#'
@@ -26,7 +26,7 @@ const NewItems = () => {
                 {link}
               </a>
               <div className='text-3xl'>{icon}</div>
-            </div>
+            </div>*/}
           </div>
           {/* product slider */}
           <div className='lg:max-w-[800px] xl:max-w-[990px] lg:absolute lg:-right-24'>

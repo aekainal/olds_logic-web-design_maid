@@ -11,14 +11,14 @@ const Features = () => {
         <div className='flex flex-col lg:items-center lg:flex-row lg:gap-x-[100px]'>
           {/* image */}
           <div className='flex-1 order-1 lg:-order-1'>
-            <img src={image.type} alt='' />
+            <img className='rounded-2xl' src={image.type} alt='' />
           </div>
           {/* text */}
           <div className='flex-1 flex flex-col justify-end'>
             <h2 className='title'>{title}</h2>
             <p className='subtitle'>{subtitle}</p>
             {/* items */}
-            <div>
+            <div id='features'>
               {items.map((item, index) => {
                 const { icon, title, subtitle } = item;
                 return (

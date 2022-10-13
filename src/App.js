@@ -19,10 +19,9 @@ const App = () => {
       <Features />
       <NewItems />
       <FeaturesSecond />
-      <Products />
       <Testimonial />
       <Newsletter />
-      <Footer />
+      <Footer />     
     </div>
   );
 };

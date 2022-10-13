@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className='section bg-primary text-white'>
       <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row justify-between border-b border-opacity-75 border-gray-700 pb-7 lg:pb-14 mb-14'>
+        <div className='flex flex-col items-center lg:flex-row lg:justify-between border-b border-opacity-75 border-gray-700 pb-7 lg:pb-14 mb-14'>
           <a className='mb-6 lg:mb-0' href='#'>
             <img className='h-8 lg:h-10' src={Logo} alt='' />
           </a>
@@ -21,7 +21,7 @@ const Footer = () => {
                   className='w-12 h-12 text-2xl bg-gray-700 hover:bg-accent rounded-full flex justify-center items-center transition-all'
                   key={index}
                 >
-                  <a href='#'>{item.icon}</a>
+                  <a target='blank' href={item.href}>{item.icon}</a>
                 </div>
               );
             })}

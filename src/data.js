@@ -10,12 +10,13 @@ import {
 } from 'react-icons/io';
 
 // import images
-import Features1Img from './assets/img/features-1.png';
+import Features1Img from './assets/img/feature-1.jpg';
 import Features2Img from './assets/img/features-2.jpeg';
-import ChairImg from './assets/img/voilacte.jpg';
-import BedImg from './assets/img/voilacte.jpg';
-import CupboardImg from './assets/img/voilacte.jpg';
-import LightingImg from './assets/img/voilacte.jpg';
+import ChairImg from './assets/img/chair.png';
+import BedImg from './assets/img/bed.png';
+import CupboardImg from './assets/img/cupboard.png';
+import LightingImg from './assets/img/lighting.png';
+import Web from './assets/img/web.png';
 import Product1Img from './assets/img/products/product-1.png';
 import Product2Img from './assets/img/products/product-2.png';
 import Product3Img from './assets/img/products/product-3.png';
@@ -26,7 +27,7 @@ import Product7Img from './assets/img/products/product-7.png';
 import Product8Img from './assets/img/products/product-8.png';
 import Product9Img from './assets/img/products/product-9.png';
 import Product10Img from './assets/img/products/product-10.png';
-import TestimonialImg from './assets/img/testimonial.png';
+import TestimonialImg from './assets/img/testimonial.jpg';
 import Avatar1Img from './assets/img/avatar-1.png';
 import Avatar2Img from './assets/img/avatar-2.png';
 import Avatar3Img from './assets/img/avatar-3.png';
@@ -39,11 +40,11 @@ export const navigation = [
   },
   {
     name: 'about',
-    href: 'about',
+    href: '#stats',
   },
   {
     name: 'features',
-    href: 'features',
+    href: '#features',
   },
   {
     name: 'contact',
@@ -123,19 +124,19 @@ export const newInStore = {
     },
     {
       name: 'WEB HOSTING',
-      image: <ChairImg />,
+      image: <BedImg />,
     },
     {
       name: 'CODE',
-      image: <ChairImg />,
+      image: <CupboardImg />,
     },
     {
       name: 'NEWSLETTER',
-      image: <ChairImg />,
+      image: <LightingImg />,
     },
     {
       name: 'ONLINE PAYMENT',
-      image: <ChairImg />,
+      image: <Web />,
     }
   ],
 };
@@ -297,29 +298,29 @@ export const products = {
 };
 
 export const testimonial = {
-  title: 'What people are saying about us',
+  title: 'What people think',
   image: <TestimonialImg />,
   persons: [
     {
       avatar: <Avatar1Img />,
       name: 'Josh Smith',
-      occupation: 'Manager of The New York Times',
+      occupation: 'Design Manager',
       message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+        '“A huge time saving.”',
     },
     {
       avatar: <Avatar2Img />,
       name: 'Brandi Johns',
-      occupation: 'Manager of The New York Times',
+      occupation: 'IT',
       message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+        '“This is interesting and useful for a lot of people .”',
     },
     {
       avatar: <Avatar3Img />,
       name: 'Paula Pfeffer',
-      occupation: 'Manager of The New York Times',
+      occupation: 'Photographer',
       message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+        '“Really cool.”',
     },
   ],
 };
@@ -335,15 +336,15 @@ export const footer = {
   social: [
     {
       icon: <IoLogoTwitter />,
-      href: '#',
+      href: 'https://twitter.com/WldsCompany',
     },
     {
       icon: <IoLogoInstagram />,
-      href: '#',
+      href: 'https://www.instagram.com/a.wlds/',
     },
     {
       icon: <IoLogoFacebook />,
-      href: '#',
+      href: 'https://www.facebook.com/profile.php?id=100086852616521',
     },
   ],
   copyright: 'WLDS 2022 - All Rights Reserved.',
