@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0be1476a.css",
+    "main.js": "/static/js/main.c66625b5.js",
+    "static/media/sombre.jpg": "/static/media/sombre.6ef6a9b2fe0741a4c2d1.jpg",
+    "static/media/web.png": "/static/media/web.fcf6160e9b66bc99609b.png",
+    "static/media/newsletter.png": "/static/media/newsletter.6158eee219439413d703.png",
+    "static/media/bed.png": "/static/media/bed.dd855487ed0004d0f148.png",
+    "static/media/chair.png": "/static/media/chair.ba316a1d15e92158d60e.png",
+    "static/media/lighting.png": "/static/media/lighting.e01856d5b689c3ef92e6.png",
+    "static/media/cupboard.png": "/static/media/cupboard.396287dd9d17c527ac32.png",
+    "static/media/feature-1.jpg": "/static/media/feature-1.f9408d045ca7c43f6ae6.jpg",
+    "static/media/testimonial.jpg": "/static/media/testimonial.6becdb5777260ef765a0.jpg",
+    "static/media/features-2.jpeg": "/static/media/features-2.5f19b2c209d90bae1a64.jpeg",
+    "static/media/product-10.png": "/static/media/product-10.c5ec2f5da9a0e5b83a4d.png",
+    "static/media/logo.png": "/static/media/logo.43d3fc72d4386525de58.png",
+    "static/media/product-2.png": "/static/media/product-2.478798e88d77b77b18ae.png",
+    "static/media/product-4.png": "/static/media/product-4.e2e28d6f16d6205d8c3c.png",
+    "static/media/product-3.png": "/static/media/product-3.f7f05e1059234192e329.png",
+    "static/media/product-1.png": "/static/media/product-1.81415b4b2db67c206362.png",
+    "static/media/product-6.png": "/static/media/product-6.3b4bb863c7c4e93feac6.png",
+    "static/media/product-5.png": "/static/media/product-5.5dbb6e9b8088ee311423.png",
+    "static/media/product-8.png": "/static/media/product-8.7b2ec61f985cc403475b.png",
+    "static/media/avatar-3.png": "/static/media/avatar-3.139cf9bf423382872360.png",
+    "static/media/product-7.png": "/static/media/product-7.8303cc75d8385719633d.png",
+    "static/media/avatar-2.png": "/static/media/avatar-2.ae52c9a34ee0972574e2.png",
+    "static/media/avatar-4.png": "/static/media/avatar-4.8247eafdc9e6398e48d2.png",
+    "static/media/avatar-1.png": "/static/media/avatar-1.aabbb166b2124eb5f652.png",
+    "static/media/product-9.png": "/static/media/product-9.88d9b287cf8cdba409c3.png",
+    "index.html": "/index.html",
+    "main.0be1476a.css.map": "/static/css/main.0be1476a.css.map",
+    "main.c66625b5.js.map": "/static/js/main.c66625b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0be1476a.css",
+    "static/js/main.c66625b5.js"
+  ]
+}

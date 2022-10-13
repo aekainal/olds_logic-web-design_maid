@@ -12,7 +12,7 @@ const FeaturesSecond = () => {
           {/* text */}
           <div className='flex-1 flex flex-col justify-end'>
             <h2 className='title'>{title}</h2>
-            <p className='subtitle'>{subtitle}</p>
+            <p  id='contact' className='subtitle'>{subtitle}</p>
           </div>
           {/* image */}
           <div className='flex-1'>

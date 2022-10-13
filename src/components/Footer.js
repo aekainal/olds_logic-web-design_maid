@@ -28,7 +28,8 @@ const Footer = () => {
           </div>
         </div>
         <p className='text-center'>
-          &copy; WLDS 2022 - All Rights Reserved.
+          {/*&copy; WLDS 2022 - All Rights Reserved.*/}
+          2022 WLDS
         </p>
       </div>
     </footer>

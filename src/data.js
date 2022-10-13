@@ -48,7 +48,7 @@ export const navigation = [
   },
   {
     name: 'contact',
-    href: 'contact',
+    href: '#contact',
   },
 ];
 
@@ -66,7 +66,7 @@ export const stats = [
   },
   {
     value: '100+',
-    text: 'WebSites builded',
+    text: 'WebSites built',
   },
   {
     value: 'Built',
@@ -113,8 +113,8 @@ export const features = {
 };
 
 export const newInStore = {
-  title: 'Possibilities',
-  subtitle: 'Here are many steps of your next website.',
+  title: 'Follow-up',
+  subtitle: 'You will be informed & advised on all aspects of your website.',
   link: 'Check all',
   icon: <IoIosArrowRoundForward />,
   products: [

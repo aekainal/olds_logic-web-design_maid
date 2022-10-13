@@ -10,6 +10,7 @@ import Products from './components/Products';
 import Testimonial from './components/Testimonial';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
+import Contact from './components/Contact'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Features />
       <NewItems />
       <FeaturesSecond />
+      <Contact />
       <Testimonial />
       <Newsletter />
       <Footer />     
