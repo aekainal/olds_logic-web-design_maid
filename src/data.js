@@ -2,7 +2,6 @@
 import {
   IoLogoTwitter,
   IoLogoFacebook,
-  IoLogoGithub,
   IoLogoInstagram,
   IoMdAddCircle,
   IoIosCheckmarkCircle,
