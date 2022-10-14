@@ -14,7 +14,7 @@ const Footer = () => {
           <a className='mb-6 lg:mb-0' href='#'>
             <img className='h-8 lg:h-10' src={Logo} alt='' />
           </a>
-          <div className='flex gap-x-4'>
+          <div className='flex gap-x-4 lg:mr-10'>
             {footer.social.map((item, index) => {
               return (
                 <div

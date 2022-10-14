@@ -14,8 +14,11 @@ const Testimonial = () => {
           <div className='lg:max-w-[50%]'>
             {/* title */}
             <h2 className='title mb-9'>{title}</h2>
+            <p className='mb-10'>This is a web component you can have on your website.</p>
             {/* slider */}
-            <TestimonialSlider />
+            <div className='shadow-xl px-10 py-5 rounded-2xl mb-10 lg:mb-0'>
+              <TestimonialSlider />
+            </div>            
           </div>
           {/* image */}
           <div className='order-1'>

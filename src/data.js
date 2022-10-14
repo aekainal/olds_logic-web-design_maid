@@ -297,7 +297,7 @@ export const products = {
 };
 
 export const testimonial = {
-  title: 'What people think',
+  title: 'Web components',
   image: <TestimonialImg />,
   persons: [
     {
